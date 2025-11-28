@@ -15,7 +15,7 @@ h1 {
     margin: 0.5rem 0 0.2rem 0;
     font-size: 2.2rem;
     font-family: 'Dancing Script', cursive, Arial, sans-serif;
-    color: #b48eae;
+    color: #2176ae;
 }
 nav ul {
     list-style: none;
@@ -29,13 +29,13 @@ nav ul {
     cursor: pointer;
     padding: 0.5rem 1.2rem;
     border-radius: 20px;
-    background: #e9e4f0;
-    color: #6d4c7d;
+    background: #e3f2fd;
+    color: #2176ae;
     font-weight: 500;
     transition: background 0.2s, color 0.2s;
 }
 .tab.active {
-    background: #b48eae;
+    background: #2176ae;
     color: #fff;
 }
 main {
@@ -77,5 +77,7 @@ main {
     .tab {
         padding: 0.4rem 0.7rem;
         font-size: 0.95rem;
+        background: #bbdefb;
+        color: #2176ae;
     }
 }
